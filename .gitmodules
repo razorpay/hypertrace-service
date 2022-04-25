@@ -12,7 +12,7 @@
 	branch = main
 [submodule "query-service"]
 	path = query-service
-	url = https://github.com/razorpay/query-service.git
+	url = https://github.com/razorpay/hypertrace-query-service.git
 	branch = main
 [submodule "hypertrace-graphql"]
 	path = hypertrace-graphql
