@@ -16,7 +16,7 @@
 	branch = main
 [submodule "hypertrace-graphql"]
 	path = hypertrace-graphql
-	url = https://github.com/razorpay/hypertrace-graphql.git
+	url = https://github.com/razorpay/hypertrace-hypertrace-graphql.git
 	branch = main
 [submodule "config-bootstrapper"]
 	path = config-bootstrapper
