@@ -1,14 +1,14 @@
 [submodule "attribute-service"]
 	path = attribute-service
-	url = https://github.com/razorpay/attribute-service.git
+	url = https://github.com/razorpay/hypertrace-attribute-service.git
 	branch = main
 [submodule "entity-service"]
 	path = entity-service
-	url = https://github.com/razorpay/entity-service.git
+	url = https://github.com/razorpay/hypertrace-entity-service.git
 	branch = main
 [submodule "gateway-service"]
 	path = gateway-service
-	url = https://github.com/razorpay/gateway-service.git
+	url = https://github.com/razorpay/hypertrace-gateway-service.git
 	branch = main
 [submodule "query-service"]
 	path = query-service
@@ -20,9 +20,9 @@
 	branch = main
 [submodule "config-bootstrapper"]
 	path = config-bootstrapper
-	url = https://github.com/razorpay/config-bootstrapper.git
+	url = https://github.com/razorpay/hypertrace-config-bootstrapper.git
 	branch = main
 [submodule "config-service"]
   path = config-service
-  url = https://github.com/razorpay/config-service.git
+  url = https://github.com/razorpay/hypertrace-config-service.git
   branch = main
