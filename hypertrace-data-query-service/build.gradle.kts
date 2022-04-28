@@ -48,7 +48,7 @@ hypertraceDocker {
     }
     namespace.set("razorpay")
   }
-  tag("${project.name}" + "_" + versionBanner())
+  tag(versionBanner())
 }
 
 fun versionBanner(): String {
