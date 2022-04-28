@@ -46,13 +46,12 @@ application {
 
 hypertraceDocker {
   defaultImage {
-    imageName.set("hypertrace")
     imageName.set("hypertrace-ui")
     buildArgs.put("HYPERTRACE_UI_VERSION", hypertraceUiVersion)
     dockerFile.set(file("Dockerfile"))
     namespace.set("razorpay")
   }
-  tag("${project.name}" + "_" + versionBanner())
+  tag(versionBanner())
 }
 
 fun versionBanner(): String {
