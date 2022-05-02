@@ -46,7 +46,7 @@ application {
 
 hypertraceDocker {
   defaultImage {
-    imageName.set("hypertrace-ui")
+    imageName.set("hypertrace-service")
     buildArgs.put("HYPERTRACE_UI_VERSION", hypertraceUiVersion)
     dockerFile.set(file("Dockerfile"))
     namespace.set("razorpay")

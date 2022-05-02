@@ -41,7 +41,7 @@ application {
 
 hypertraceDocker {
   defaultImage {
-    imageName.set("hypertrace-ui")
+    imageName.set("hypertrace-service")
     javaApplication {
       envVars.put("CLUSTER_NAME", "default-cluster")
       envVars.put("POD_NAME", "default-pod")
