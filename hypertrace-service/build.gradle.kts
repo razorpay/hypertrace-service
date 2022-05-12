@@ -46,18 +46,18 @@ application {
 
 hypertraceDocker {
   defaultImage {
-    imageName.set("hypertrace-ui")
+    imageName.set("hypertrace-service")
     buildArgs.put("HYPERTRACE_UI_VERSION", hypertraceUiVersion)
     dockerFile.set(file("Dockerfile"))
     namespace.set("razorpay")
   }
-  tag(versionBanner())
+  tag("${project.name}" + "_" + versionBanner())
 }
 
 fun versionBanner(): String {
   val os = com.bmuschko.gradle.docker.shaded.org.apache.commons.io.output.ByteArrayOutputStream()
   project.exec {
-    commandLine = "git rev-parse --verify HEAD".split(" ")
+    commandLine = "git rev-parse --verify --short HEAD".split(" ")
     standardOutput = os
   }
   return String(os.toByteArray()).trim()
