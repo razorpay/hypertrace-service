@@ -54,7 +54,7 @@ hypertraceDocker {
 fun versionBanner(): String {
   val os = com.bmuschko.gradle.docker.shaded.org.apache.commons.io.output.ByteArrayOutputStream()
   project.exec {
-    commandLine = "git describe --tags --abbrev=0".split(" ")
+    commandLine = "git rev-parse --verify --short HEAD".split(" ")
     standardOutput = os
   }
   return String(os.toByteArray()).trim()
