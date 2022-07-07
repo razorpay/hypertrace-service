@@ -8,6 +8,7 @@ plugins {
 }
 
 dependencies {
+  implementation("io.pyroscope:agent:0.9.1")
   implementation("org.hypertrace.core.query.service:query-service")
   implementation("org.hypertrace.core.query.service:query-service-impl")
   implementation("org.hypertrace.gateway.service:gateway-service")
