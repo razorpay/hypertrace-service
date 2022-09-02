@@ -37,7 +37,7 @@ dependencies {
   implementation("org.slf4j:slf4j-api:1.7.32")
 
   runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:2.17.1")
-  runtimeOnly("io.grpc:grpc-netty:1.43.2")
+  runtimeOnly("io.grpc:grpc-netty:1.45.1")
 }
 
 application {

@@ -24,13 +24,13 @@ dependencies {
   implementation("com.typesafe:config:1.4.1")
   implementation("org.slf4j:slf4j-api:1.7.32")
   constraints {
-    implementation("com.google.protobuf:protobuf-java:3.19.2") {
+    implementation("com.google.protobuf:protobuf-java:3.21.1") {
       because("https://snyk.io/vuln/SNYK-JAVA-COMGOOGLEPROTOBUF-2331703")
     }
   }
 
   runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:2.17.1")
-  runtimeOnly("io.grpc:grpc-netty:1.43.2")
+  runtimeOnly("io.grpc:grpc-netty:1.45.1")
 
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 }
