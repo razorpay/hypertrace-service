@@ -42,7 +42,6 @@ jobs:
           args: build dockerBuildImages
 
   validate-helm-charts:
-    if: contains(github.event.pull_request.labels.*.name,'safe-to-test')
     runs-on: ubuntu-20.04
     container:
       image: hypertrace/helm-gcs-packager:0.3.1
