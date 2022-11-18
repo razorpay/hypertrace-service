@@ -2,7 +2,7 @@ name: build and validate
 on:
   push:
   pull_request_target:
-    branches:
+    branches: 
       - main
 
 jobs:
