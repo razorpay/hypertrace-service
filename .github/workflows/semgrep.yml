@@ -1,11 +1,5 @@
 name: Security Checks
-on:
-  workflow_dispatch:
-  pull_request: {}
-  push:
-    branches: ["rzp_main"]
-  schedule:
-    - cron: '30 20 * * *'
+on: push
 jobs:
   semgrep:
     name: Scan
