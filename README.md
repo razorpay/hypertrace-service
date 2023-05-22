@@ -89,4 +89,4 @@ cd hypertrace-service && git checkout hypertrace-service-test && cd ..
 - and then run `docker-compose up` to test the setup.
 
 ## Docker Image Source:
-- [DockerHub > Hypertrace service](https://hub.docker.com/r/hypertrace/hypertrace-service)
+- [DockerHub > Hypertrace service](https://hub.docker.com/r/hypertrace/hypertrace-service).
