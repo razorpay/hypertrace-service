@@ -1,9 +1,5 @@
 name: build and validate
-on:
-  push:
-  pull_request_target:
-    branches: 
-      - main
+on: push
 
 jobs:
   build:
