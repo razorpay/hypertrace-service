@@ -1,5 +1,5 @@
 # Hypertrace Service
-
+.
 Hypertrace service combines [hypertrace-ui](https://github.com/hypertrace/hypertrace-ui), [hypertrace-graphql](https://github.com/hypertrace/hypertrace-graphql), [gateway-service](https://github.com/hypertrace/gateway-service), [attribute-service](https://github.com/hypertrace/attribute-service), [query-service](https://github.com/hypertrace/query-service), [entity-service](https://github.com/hypertrace/entity-service) into single service. This is used in Hypertrace standalone deployment to make the deployment compact and use less resource.
 
 ## How this works?
@@ -89,4 +89,4 @@ cd hypertrace-service && git checkout hypertrace-service-test && cd ..
 - and then run `docker-compose up` to test the setup.
 
 ## Docker Image Source:
-- [DockerHub > Hypertrace service](https://hub.docker.com/r/hypertrace/hypertrace-service)
+- [DockerHub > Hypertrace service](https://hub.docker.com/r/hypertrace/hypertrace-service).
